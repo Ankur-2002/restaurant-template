@@ -1,0 +1,123 @@
+.dashboard-container {
+  min-height: calc(100vh - 2px);
+  min-width: calc(100vw - 2px);
+  display: flex;
+  border: 1px solid red;
+}
+.dashboard-left {
+  width: 75%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+.dashboard-right {
+  width: 25%;
+}
+
+.dashboard-card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  row-gap: 1rem;
+}
+.mini-search {
+  min-height: 50px;
+  border: 1px solid;
+}
+.right-header {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+.right-title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.right-header button {
+  background-color: #fff2f9;
+  color: #fe83c6;
+  font-weight: 600;
+  font-size: 12px;
+  border: none;
+  width: 70px;
+  height: 30px;
+  padding: 2px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.right-header img {
+  background-color: #a5a5a5f3;
+  padding: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dashboard-right-items {
+  max-height: 290px;
+  scrollbar-width: none;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+body ::-webkit-scrollbar {
+  display: none;
+}
+.orderTotal {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  margin: 1rem;
+  border-radius: 10px;
+}
+.dashboard-order-top {
+  padding: 15px;
+  border-bottom: 1px solid black;
+}
+.dashboard-order-top div {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.dashboard-order-bottom {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}
+
+.dasboard-date-selector {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.8rem 1rem;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 2px 8px,
+    rgba(17, 17, 26, 0.1) 0px 4px 12px, rgba(17, 17, 26, 0.1) 0px 8px 23px;
+  margin: 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.dasboard-date-selector .select {
+  border-bottom: 2px solid blueviolet;
+}
+
+.dasboard-date-selector span {
+  cursor: pointer;
+}
+
+.button-container {
+  background-color: rgba(251, 128, 34, 0.955);
+  box-sizing: border-box;
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.button-container button {
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  font-weight: 800;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,51 @@
+.order-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.order-start {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 14px;
+  font-weight: 600;
+  width: 50%;
+}
+.order-start span {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.order-start img {
+  border-radius: 7px;
+  object-fit: cover;
+}
+.order-mid {
+  display: flex;
+  width: 30%;
+}
+.order-mid span {
+  margin: 0 10px 0 5px;
+  font-weight: 600;
+}
+.order-mid div {
+  background-color: rgb(231, 226, 226);
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.order-last {
+  font-weight: 600;
+  text-align: start;
+  width: 20%;
+  padding-left: 5%;
+  box-sizing: border-box;
+}
